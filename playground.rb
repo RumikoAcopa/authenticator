@@ -10,6 +10,7 @@ puts "Welcome to the authenticator"
 25.times {print "-"}
 attempts = 1
 while attempts < 4
-  puts "this will keep printing"
+  puts "Press n to quit or any other key to continue: "
+  input = gets.chomp.downcase #get input from user at each put
   attempts += 1
 end 
